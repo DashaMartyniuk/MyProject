@@ -1,0 +1,200 @@
+
+	h1 {color: #000000; font-size:60px; text-align: center; font-family:"Goudy Stout"; background: #2F4F4F; margin: 0; height: 90px}
+	h3 {color: #000000; font-size:12px; font-family:"Goudy Stout"; }
+	h4 { font-size:14px; font-family:"99% OCCUPY"; }
+  h5 { font-size:30px; font-family:"A.C.M.E"; }
+	li {display: inline-block ; height: 30px; }
+	a {color: #D3D3D3; text-decoration: none; }
+	a:visited {color: #D3D3D3;} 
+	a:hover {color: #FFC1C1; text-decoration: none;}
+  hr{
+    height: 2px;
+    background-color: #1C1C1C;
+    border: none;
+  }
+	ul {  background-color: #1C1C1C; margin: 0; }
+  body {
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    background-attachment: fixed;
+     }
+	
+    #DIV {
+    width: 920px; /* Ширина слоя */
+    margin: 20px; /* Значение отступов */
+    padding: 10px; /* Поля вокруг текста */
+    border: 2px solid black; /* Параметры границы */
+    background: #2F4F4F; /* Цвет фона */
+   }
+
+
+		#sm{float: left; 
+			position: absolute; 
+			margin-top: 20px; 
+			left: 43px;
+		} 
+		#sr{float: right; 
+			position: absolute; 
+			margin-top: 20px; 
+			right: 43px;
+		}
+		#header{position: relative;}
+		#call{float: right; 
+			position: absolute; 
+			margin-top: 0px; 
+			right: 43px; 
+			height: 20px;
+		} 
+
+		/*Різнокольорові кнопочки*/
+		.c {border: 1px solid #F8F8FF; 
+		    display: inline-block;  
+		    padding: 10px 50px; /* Поля */ 
+		    text-decoration: none;  
+		    background-color: #F8F8FF;
+		}
+   	.c:hover {background-color: #FF7256;
+   		    color: #fff;
+          /*Час появи кольору на кнопках*/
+          transition: all ease 0.5s;
+   		}
+	 .c2 {border: 1px solid #F8F8FF;
+	    	display: inline-block; 
+	    	padding: 10px 50px;
+	    	text-decoration: none; 
+	    	background-color: #F8F8FF;
+	    }
+	 .c2:hover {background-color: #2E8B57;
+	    	color: #fff;
+        transition: all ease 0.5s;
+	    }
+	 .c3 {border: 1px solid #F8F8FF;
+			display: inline-block;
+			padding: 10px 50px; 
+			text-decoration: none;
+			background-color: #F8F8FF;
+		}
+     	.c3:hover {background-color: #FFC1C1;
+     		color: #fff;
+        transition: all ease 0.5s;
+     	}
+     	.c0 {border: 1px solid #F8F8FF;
+     	  display: inline-block;
+     	  padding: 10px 50px; 
+     	  text-decoration: none;  
+     	  background-color: #F8F8FF; 
+     	}
+     	.c4 {border: 1px solid #F8F8FF;
+     		display: inline-block;
+     		padding: 10px 50px;
+     		 text-decoration: none;
+     		  background-color: #F8F8FF;
+     	}
+     	.c4:hover {background-color: #00868B;
+     		color: #fff;
+        transition: all ease 0.5s;
+     	}
+     	.c5 {border: 1px solid #F8F8FF;
+     		display: inline-block;
+     		padding: 10px 50px; 
+     		text-decoration: none; 
+     		background-color: #F8F8FF;
+     	}
+     	.c5:hover {background-color: #CD2626;
+     		color: #fff;
+        transition: all ease 0.5s;
+     	}
+     	.c6 {border: 1px solid #F8F8FF;
+     		display: inline-block;
+     		padding: 10px 50px; 
+     		text-decoration: none; 
+     		background-color: #F8F8FF;
+     	}
+     	.c6:hover {background-color: #FF7F00;
+     		color: #fff;
+        transition: all ease 0.5s;
+     	}
+     	.c7 {border: 1px solid #F8F8FF;
+     		display: inline-block;
+     		padding: 10px 50px; 
+     		text-decoration: none; 
+     		background-color: #F8F8FF;
+     	}
+     	.c7:hover {background-color: #B3EE3A;
+     		color: #fff;
+        transition: all ease 0.5s;
+     	}
+/*Пошукова стрічка*/
+
+     	* {box-sizing: border-box;}
+form {
+  position: absolute;
+  width: 530px;
+  margin-top: 0px;
+  right: 43px;
+}
+input {
+  width: 450px;
+  height: 42px;
+  padding-left: 10px;
+  border: 1px solid #1C1C1C;
+  outline: none;
+  background: #F8F8FF;
+  font-family: "Yu Gothic Medium";
+  color: #000;
+  margin-right: 43px;
+  margin-top: 145px
+}
+button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: #F8F8FF;
+  cursor: default;
+  border-right: 1px solid #1C1C1C;
+  border-bottom: 1px solid #1C1C1C;
+  border-top: 1px solid #1C1C1C; 
+  margin-right: 43px;
+  margin-top: 145px
+
+}
+button:before {
+  content: "\f002";
+  font-family: "Yu Gothic Medium";
+  font-size: 20px;
+  color: #F9F0DA;
+}
+
+/*Блоки*/
+.r1, .r2,  .r3, .r4 { 
+  display:  block; /* Блочный элемент */
+  height:  1px; /* Высота */
+  background:  #fff; /* Цвет фона */
+  overflow: hidden; /* Отображается только область внутри элемента, остальное будет скрыто */
+}
+.r1 { margin: 0 5px; }
+.r2 { margin: 0 3px; }
+.r3 { margin: 0 2px; }
+.r4 { margin: 0 1px; height: 2px; }
+
+
+
+
+.image {
+  position  : relative;
+  width   : 100%; /* for IE 6 */
+}
+
+h2 {
+  position  : absolute;
+  top   : 200px;
+  left    : 0;
+  width   : 100%;
+}
+
+
